@@ -12,47 +12,102 @@
 
 body{
     // background: blue;
-    margin: 2% 30%;
+    // margin: 2% 30%;
+    background-color: green;
 
    
 
     main{
-        
+        // display: flex;
+        // justify-content: center;
+        margin: 10px auto;
         border: 1px solid black;
-        height: 90%;
-        width: 70%;
+        height: 600px;
+        width: 350px;
         background-color: skyblue;
         
 
+        
+
         .section_1 {
-            // border: 9px solid yellow;
-            // background: red;
-            // height: 100%;
-            // width: 100%;
+
+            .mains {
+
+
+             
             
-
-            .first-div {
-                .in1 {
-                    height: 20px;
-                    width: 300px;
-                    background-color: red;
-                }
-
-            }
-
-            .second-div {
-                .in2 {
-                    height: 20px;
-                    width: 20px;
-                    background-color: red;
-                }
+                // text-align: center;
+                // border: 1px solid yellow;
+                // background-color: pink;
+                
+                // margin: 0 20%;
+                // height: 50px;
+                // width: 20px;
+                // background: red;
+                // height: 100%;
+                // width: 100%;
                 
 
+                .first-div {
+                    .in1 {
+                        height: 4rem;
+                        width: 16.8rem;                    
+                        background-color: white;
+                        border: 1px solid black;
+                        color: white;      
+                    }
 
+                }
+
+                .second-div {
+
+                    .second-div-input1-flex {
+                        .in2 {
+                            height: 4rem;
+                            width: 4rem;
+                            background-color: red;
+                            color: white;
+                            font-size: 30px;
+                            // margin-left: 2%;
+                            
+                        }
+
+                    }
+
+                    .second-div-input-2-flex {
+
+                        .div-1 {
+                            .in2 {
+                                height: 4rem;
+                                width: 4rem;
+                                background-color: red;
+                                color: white;
+                                font-size: 30px;
+                            } 
+
+                        }
+
+                        .equal-div {
+
+                            .in2 {
+                                height: 4rem;
+                                width: 4rem;
+                                background-color: red;
+                                color: white;
+                                font-size: 30px;
+                            } 
+                        }
+
+                        
+
+
+                    }
+                
+                    
+
+
+                }
             }
-
-          
-
         }
     }
 }
