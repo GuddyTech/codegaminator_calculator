@@ -9,6 +9,7 @@ body main section {
   height: 550px;
   width: 343px;
   background-color: skyblue;
+  border-radius: 15px;
 }
 body main section .display-div {
   margin: 20px 10px;
@@ -16,21 +17,37 @@ body main section .display-div {
 body main section .display-div .disp-input {
   height: 70px;
   width: 322px;
+  font-size: 40px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 2px grey;
+  padding: 10px 20px;
 }
 body main section .btn-1-div .in1 {
   height: 70px;
   width: 70px;
   margin-left: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px grey;
+}
+body main section .btn-1-div #ce {
+  background-color: orange;
 }
 body main section .btn-2-div .in2 {
   height: 70px;
   width: 70px;
   margin-left: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px grey;
 }
 body main section .btn-3-div .in3 {
   height: 70px;
   width: 70px;
   margin-left: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px grey;
 }
 body main section .flex-div {
   display: flex;
@@ -39,6 +56,9 @@ body main section .flex-div .one-div .in4 {
   height: 70px;
   width: 70px;
   margin-left: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px grey;
 }
 body main section .flex-div .one-div #zero {
   margin-top: 18px;
@@ -48,4 +68,9 @@ body main section .flex-div .equal-div .in5 {
   height: 158px;
   width: 70px;
   margin-right: 10px;
+  font-size: 20px;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px grey;
 }/*# sourceMappingURL=home.css.map */

@@ -13,6 +13,7 @@
             height: 550px;
             width: 343px;
             background-color: skyblue;
+            border-radius: 15px;
 
             .display-div {
                 margin: 20px 10px;
@@ -21,6 +22,10 @@
                 .disp-input {
                     height: 70px;
                     width: 322px;
+                    font-size: 40px;
+                    border-radius: 15px;
+                    box-shadow: 2px 2px 2px 2px grey;
+                    padding: 10px 20px;
                 }
 
             }
@@ -31,7 +36,13 @@
                     height: 70px;
                     width: 70px;
                     margin-left: 10px;
+                    font-size: 20px;
+                    border-radius: 10px;
+                    box-shadow: 2px 2px 2px 2px grey;
 
+                }
+                #ce {
+                    background-color: orange;
                 }
             }
 
@@ -41,6 +52,9 @@
                     height: 70px;
                     width: 70px;
                     margin-left: 10px;
+                    font-size: 20px;
+                    border-radius: 10px;
+                    box-shadow: 2px 2px 2px 2px grey;
 
                 }
             }
@@ -51,6 +65,9 @@
                     height: 70px;
                     width: 70px;
                     margin-left: 10px;
+                    font-size: 20px;
+                    border-radius: 10px;
+                    box-shadow: 2px 2px 2px 2px grey;
                     
                 }
             }
@@ -64,6 +81,9 @@
                         height: 70px;
                         width: 70px;
                         margin-left: 10px;
+                        font-size: 20px;
+                        border-radius: 10px;
+                        box-shadow: 2px 2px 2px 2px grey;
 
                     }
 
@@ -80,6 +100,11 @@
                         height: 158px;
                         width: 70px;
                         margin-right: 10px;
+                        font-size: 20px;
+                        color: white;
+                        background-color: red;
+                        border-radius: 10px;
+                        box-shadow: 2px 2px 2px 2px grey;
 
                     }
 
