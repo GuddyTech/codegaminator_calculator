@@ -10,14 +10,17 @@
         
         section{
             border: 1px solid black;
-            height: 500px;
-            width: 400px;
+            height: 550px;
+            width: 343px;
             background-color: skyblue;
 
             .display-div {
+                margin: 20px 10px;
+
                 
                 .disp-input {
-
+                    height: 70px;
+                    width: 322px;
                 }
 
             }
@@ -25,6 +28,9 @@
             .btn-1-div{
 
                 .in1 {
+                    height: 70px;
+                    width: 70px;
+                    margin-left: 10px;
 
                 }
             }
@@ -32,6 +38,9 @@
             .btn-2-div{
 
                 .in2 {
+                    height: 70px;
+                    width: 70px;
+                    margin-left: 10px;
 
                 }
             }
@@ -39,16 +48,28 @@
             .btn-3-div{
 
                 .in3 {
+                    height: 70px;
+                    width: 70px;
+                    margin-left: 10px;
                     
                 }
             }
 
             .flex-div{
+                display: flex;
 
                 .one-div{
 
                     .in4 {
+                        height: 70px;
+                        width: 70px;
+                        margin-left: 10px;
 
+                    }
+
+                    #zero {
+                        margin-top: 18px;
+                        width: 154px;
                     }
 
                 }
@@ -56,6 +77,9 @@
                 .equal-div {
 
                     .in5 {
+                        height: 158px;
+                        width: 70px;
+                        margin-right: 10px;
 
                     }
 
